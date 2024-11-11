@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+    <title>TODO List</title>
+</head>
+<body class="Fresca bg-zinc-200">
+    <div class="main w-full">
+        <div class="w-full flex justify-center mt-12 px-6 py-2 gap-4">
+            <input type="text" id="prompt" placeholder="Type in anything" class="Fresca outline-xl rounded-lg shadow-md px-4 w-[70%] h-10 outline-blue-300">
+            <button type="button" class="bg-blue-300 font-semibold w-fit h-fit px-6 rounded-xl py-2" onclick="doAdd()">Add</button>
+        </div>
+        <div class="flex justify-start px-52 mt-6">
+            <ul id="list" class="font-base text-lg">
+            </ul>
+        </div>
+    </div>
+    <script>
+        const arr = [];
+        
+        const doAdd = () => {
+            const inputVal=document.getElementById('prompt').value;
+            let ulList=document.getElementById('list');
+            let newLi=document.createElement('li');
+            newLi.innerText=inputVal;
+            ulList.appendChild(newLi);
+            document.getElementById('prompt').value='';
+        }
+    </script>
+</body>
+</html>
