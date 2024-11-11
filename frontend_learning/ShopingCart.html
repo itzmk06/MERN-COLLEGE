@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+    <title>Find Square / Cube</title>
+</head>
+<body class="flex justify-center items-start min-h-screen bg-zinc-100">
+    <div class="shop-content flex flex-col gap-5 px-5 py-5 bg-white rounded-lg shadow-lg mt-10">
+        <h1 class="text-3xl font-semibold text-center">Shopping Cart</h1>
+        <form class="flex flex-col gap-5">
+            <label for="product">Product</label>
+            <input class="w-full focus:scale-105 transition transform px-2 py-2 outline-blue-300 rounded-md border border-gray-300" type="text" id="product" name="product" required>
+
+            <label for="quantity">Quantity</label>
+            <input class="w-full focus:scale-105 px-2 py-2 outline-blue-300 rounded-md border border-gray-300" type="number" id="quantity" name="quantity" required>
+
+            <label for="price">Price</label>
+            <input class="w-full focus:scale-105 px-2 py-2 outline-blue-300 rounded-md border border-gray-300" type="number" id="price" name="price" required>
+
+            <label for="amount">Amount</label>
+            <input class="w-full focus:scale-105 px-2 py-2 outline-blue-300 rounded-md border border-gray-300" type="text" onclick="calculate()" id="amount" name="amount" readonly>
+
+            <button type="button" class="hover:scale-105 transition transform bg-blue-500 text-zinc-100 rounded-md py-2" onclick="add()">Add</button>
+        </form>
+
+        <table id="table" class="w-full mt-5 border-collapse">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border px-4 py-2">Product</th>
+                    <th class="border px-4 py-2">Quantity</th>
+                    <th class="border px-4 py-2">Price</th>
+                    <th class="border px-4 py-2">Amount</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="totalDisplay" class="text-2xl font-semibold text-right mt-5">Total: Rs: 0</div>
+    </div>
+
+    <script>
+        let totalAmount = 0;
+
+        const calculate = () => {
+            const quantity = document.getElementById('quantity').value;
+            const price = document.getElementById('price').value;
+            const amount = quantity * price;
+            document.getElementById('amount').value = amount || 0;
+        };
+
+        const add = () => {
+            const product = document.getElementById('product').value;
+            const quantity = document.getElementById('quantity').value;
+            const price = document.getElementById('price').value;
+            const amount = document.getElementById('amount').value;
+
+            if (product && quantity && price && amount) {
+                totalAmount += parseFloat(amount);
+                display(product, quantity, price, amount);
+                updateTotal();
+                clear();
+            } else {
+                alert("Please fill out all fields and calculate amount before adding.");
+            }
+        };
+
+        const display = (product, quantity, price, amount) => {
+            const table = document.getElementById('table').getElementsByTagName('tbody')[0];
+            const row = table.insertRow();
+
+            row.insertCell(0).innerText = product;
+            row.insertCell(1).innerText = quantity;
+            row.insertCell(2).innerText = price;
+            row.insertCell(3).innerText = amount;
+        };
+
+        const updateTotal = () => {
+            document.getElementById('totalDisplay').textContent = `Total: Rs ${totalAmount}`;
+        };
+
+        const clear = () => {
+            document.getElementById('product').value = '';
+            document.getElementById('quantity').value = '';
+            document.getElementById('price').value = '';
+            document.getElementById('amount').value = '';
+        };
+    </script>
+</body>
+</html>
