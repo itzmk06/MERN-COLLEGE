@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1"
+  },
+  "name": "mern-college",
+  "version": "1.0.0",
+  "description": "This MERN workshop is going to conduct by college, where student's will learn MERN in 5 days XD",
+  "main": "tempCodeRunnerFile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj",
+  "license": "ISC"
+}
