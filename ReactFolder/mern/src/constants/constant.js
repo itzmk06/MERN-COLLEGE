@@ -66,7 +66,7 @@ export const imageDetails = [
     {
         id: 1,
         src: "https://cdn.dribbble.com/userupload/17553742/file/original-5d80434ef97175331885242b0c1158d2.jpg?resize=1200x900&vertical=center",
-        name: "Type 08",
+        name: "Kiran Hp",
         likes: "78",
         views: "13.8k",
         authorImage: "https://cdn.dribbble.com/users/22136/avatars/small/9ab8f67def79c1b8c442ee1874999148.jpg?1411082459",
@@ -183,120 +183,66 @@ export const imageDetails = [
         },
         {
             id: 14,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/17225808/file/original-f80ab8227bfe55b960d883db14425f9f.png?resize=400x300&vertical=center",
             name: "Henry Martin",
             likes: "110",
             views: "20.1k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/users/8299015/avatars/small/7d4b91badc6d842ae8934011475d1872.png?1686207363",
             type: "Phone"
         },
         {
             id: 15,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/16801045/file/original-0a5117a74d298856bc61362339174da7.jpg?resize=400x300&vertical=center",
             name: "Emily Wilson",
             likes: "67",
             views: "13.9k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/userupload/16801045/file/original-0a5117a74d298856bc61362339174da7.jpg?resize=400x300&vertical=center",
             type: "Discover"
         },
         {
             id: 16,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/17184566/file/original-c414c27b203219c44de41b231fd47852.png?resize=400x300&vertical=center",
             name: "Lucas Walker",
             likes: "75",
             views: "14.8k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/users/1222918/avatars/small/21cacf997571426c1a33e3850c373ae7.jpg?1465744279",
             type: "Illustration"
         },
         {
             id: 17,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/17347025/file/original-defa18a895656d7c81b8229357f9f026.png?crop=252x189-2943x2207&resize=400x300&vertical=center",
             name: "Charlotte Young",
             likes: "102",
             views: "21.3k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/userupload/17347025/file/original-defa18a895656d7c81b8229357f9f026.png?crop=252x189-2943x2207&resize=400x300&vertical=center",
             type: "Branding"
         },
         {
             id: 18,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/17563300/file/original-6d917c7ee58dc884cc4753f03cd2a518.jpg?resize=400x300&vertical=center",
             name: "Benjamin Hall",
             likes: "94",
             views: "16.1k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/userupload/17526797/file/original-72e566c441769e6dc5f1aff3028195be.png?resize=400x300&vertical=center",
             type: "Typography"
         },
         {
             id: 19,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/17474318/file/original-294e3928354a99f5fe8a83aa1c056d6a.jpg?resize=400x300&vertical=center",
             name: "Amelia King",
             likes: "87",
             views: "15.7k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/userupload/17228525/file/original-febc521c0e58da81cc0836f15acf7c8b.jpg?resize=400x300&vertical=center",
             type: "Population"
         },
         {
             id: 20,
-            src: "",
+            src: "https://cdn.dribbble.com/userupload/17535278/file/original-c6dc0accb499e2f57b9809f4f1bcce10.png?crop=36x27-1564x1173&resize=400x300&vertical=center",
             name: "Mason Wright",
             likes: "113",
             views: "19.6k",
-            authorImage: "",
+            authorImage: "https://cdn.dribbble.com/userupload/17228525/file/original-febc521c0e58da81cc0836f15acf7c8b.jpg?resize=400x300&vertical=center",
             type: "Web design"
-        },
-        {
-            id: 21,
-            src: "",
-            name: "Ava Baker",
-            likes: "71",
-            views: "12.8k",
-            authorImage: "",
-            type: "Colors"
-        },
-        {
-            id: 22,
-            src: "",
-            name: "Alexander Perez",
-            likes: "89",
-            views: "14.3k",
-            authorImage: "",
-            type: "Phone"
-        },
-        {
-            id: 23,
-            src: "",
-            name: "Sophia Roberts",
-            likes: "108",
-            views: "20.7k",
-            authorImage: "",
-            type: "Discover"
-        },
-        {
-            id: 24,
-            src: "",
-            name: "Logan Carter",
-            likes: "92",
-            views: "17.8k",
-            authorImage: "",
-            type: "Illustration"
-        },
-        {
-            id: 25,
-            src: "",
-            name: "Zoe Turner",
-            likes: "104",
-            views: "21.5k",
-            authorImage: "",
-            type: "Branding"
-        },
-        {
-            id: 26,
-            src: "",
-            name: "Daniel Collins",
-            likes: "81",
-            views: "13.6k",
-            authorImage: "",
-            type: "Typography"
         }
     ];
     

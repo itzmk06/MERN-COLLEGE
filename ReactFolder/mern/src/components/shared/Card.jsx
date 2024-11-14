@@ -4,7 +4,7 @@ import 'remixicon/fonts/remixicon.css'
 const Card = ({imageDetails}) => {
   return (
     <>
-      <div className="w-64 h-32 mb-32">
+      <div className="w-64 h-32 mb-32 cursor-pointer">
         <div>
           <img
             className="object-center object-cover rounded-lg"

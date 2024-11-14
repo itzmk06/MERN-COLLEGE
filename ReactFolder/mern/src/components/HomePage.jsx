@@ -39,7 +39,7 @@ const HomePage=()=>{
                         })
                     }
                 </div>
-                <div className="w-full   grid grid-rows-5 grid-cols-4 px-32 ">
+                <div className="w-full gap-10   grid grid-rows-5 grid-cols-4 px-36">
                     {
                         imageDetails?.map((item,index)=>{
                             return(
@@ -47,6 +47,27 @@ const HomePage=()=>{
                             )
                         })
                     }
+                </div>
+                <div className="-mt-10 h-20 w-full py-12 px-10">
+                    <footer className="text-sm font-light flex justify-between justify-center items-center px-72">
+                        <div className="flex  gap-4 items-center ">
+                                <h1>@2024 Dribbble</h1>
+                                <h1>Terms</h1>
+                                <h1>Privacy</h1>
+                                <h1>Cookies</h1>
+                        </div>
+                        <div className="flex gap-4 items-center -mr-28">
+                            <h1>Jobs</h1>
+                            <h1>Designers</h1>
+                            <h1>Freelancers</h1>
+                            <h1>Tags</h1>
+                            <h1>Places</h1>
+                            <h1>Resources</h1>
+                        </div>
+                        <div>
+
+                        </div>
+                    </footer>
                 </div>
             </div>
         </>
