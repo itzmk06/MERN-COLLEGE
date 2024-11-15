@@ -1,13 +1,32 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 
 const Create = () => {
     const [imageUrl, setImageUrl] = useState('');
     const [type, setType] = useState('');
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Image URL:', imageUrl);
-        console.log('Type:', type);
+        setLoading(true);
+        setError('');
+
+        try {
+            const response = await axios.post('http://localhost:3000/upload', {
+                imageUrl,
+                type
+            });
+
+            console.log('Image saved successfully:', response.data);
+            setImageUrl('');
+            setType('');
+        } catch (err) {
+            console.error('Error saving image:', err);
+            setError('Failed to save image. Please try again later.');
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -38,11 +57,14 @@ const Create = () => {
                     />
                 </div>
 
+                {error && <p className="text-red-600 text-sm">{error}</p>}
+
                 <button
                     type="submit"
-                    className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    className={`w-full py-2 px-4 ${loading ? 'bg-gray-500' : 'bg-blue-600'} text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2`}
+                    disabled={loading}
                 >
-                    Submit
+                    {loading ? 'Submitting...' : 'Submit'}
                 </button>
             </form>
         </div>
