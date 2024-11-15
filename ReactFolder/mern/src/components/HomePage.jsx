@@ -1,10 +1,12 @@
 import SearchBar from "./shared/SearchBar";
 import {filter_options, imageDetails, trending_search} from '../constants/constant'
 import Card from "./shared/Card";
+import NavBar from "./shared/Navbar";
 
 const HomePage=()=>{
     return(
         <>
+        <NavBar/>
             <div className="w-full h-screen flex flex-col items-center gap-10 ">
                 <div className="tagLine  flex pt-24 justify-center flex-col items-center text-8xl font-semibold">
                     <h1>Discover the world&apos;s</h1>

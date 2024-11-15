@@ -70,7 +70,10 @@ export const imageDetails = [
         likes: "78",
         views: "13.8k",
         authorImage: "https://cdn.dribbble.com/users/22136/avatars/small/9ab8f67def79c1b8c442ee1874999148.jpg?1411082459",
-        type: "Illustration"
+        type: "Illustration",
+        username: "kiran_hp",
+        location: "India",
+        rating: 4.5
     },
     {
         id: 2,
@@ -79,7 +82,10 @@ export const imageDetails = [
         likes: "120",
         views: "20.5k",
         authorImage: "https://cdn.dribbble.com/users/1193653/avatars/small/6a14bb6ab8e3c7c2122d0af8271a7d4e.png?1674630416",
-        type: "Web design"
+        type: "Web design",
+        username: "sasha",
+        location: "India",
+        rating: 4.1
     },
     {
         id: 3,
@@ -88,7 +94,10 @@ export const imageDetails = [
         likes: "56",
         views: "10.2k",
         authorImage: "https://cdn.dribbble.com/users/8428555/avatars/small/aa290ea24e340a8cd27f41eff19b127a.png?1706665403",
-        type: "Branding"
+        type: "Branding",
+        username: "jamie",
+        location: "India",
+        rating: 4.0
     },
     {
         id: 4,
@@ -97,7 +106,10 @@ export const imageDetails = [
         likes: "90",
         views: "16.7k",
         authorImage: "https://cdn.dribbble.com/userupload/17555790/file/original-5c4ae37f40454a724b60d08d9bd588e3.jpg?resize=1200x900&vertical=center",
-        type: "Typography"
+        type: "Typography",
+        username: "kim",
+        location: "India",
+        rating: 4.7
     },
     {
         id: 5,
@@ -106,7 +118,10 @@ export const imageDetails = [
         likes: "65",
         views: "12.4k",
         authorImage: "https://cdn.dribbble.com/userupload/17555790/file/original-5c4ae37f40454a724b60d08d9bd588e3.jpg?resize=1200x900&vertical=center",
-        type: "Discover"
+        type: "Discover",
+        username: "liam",
+        location: "India",
+        rating: 4.0
     },
     {
         id: 6,
@@ -115,7 +130,10 @@ export const imageDetails = [
         likes: "112",
         views: "18.3k",
         authorImage: "https://cdn.dribbble.com/users/6477965/avatars/small/d782105747b50112e0ce0603bd3a77d6.jpg?1705715122",
-        type: "Colors"
+        type: "Colors",
+        username: "emma",
+        location: "usa",
+        rating: 3.9
     },
 
         {
@@ -125,7 +143,10 @@ export const imageDetails = [
             likes: "95",
             views: "14.2k",
             authorImage: "https://cdn.dribbble.com/userupload/17556788/file/original-b1032ccf28f360058b4cb0354503418f.png?crop=0x0-1600x1200&resize=400x300&vertical=center",
-            type: "Branding"
+            type: "Branding",
+            username: "olivia",
+            location: "India",
+            rating: 4.2
         },
         {
             id: 8,
@@ -134,7 +155,10 @@ export const imageDetails = [
             likes: "130",
             views: "22.4k",
             authorImage: "https://cdn.dribbble.com/userupload/17556788/file/original-b1032ccf28f360058b4cb0354503418f.png?crop=0x0-1600x1200&resize=400x300&vertical=center",
-            type: "Discover"
+            type: "Discover",
+            username: "ethan",
+            location: "India",
+            rating: 4.9
         },
         {
             id: 9,
@@ -143,7 +167,10 @@ export const imageDetails = [
             likes: "78",
             views: "15.8k",
             authorImage: "https://cdn.dribbble.com/users/384937/avatars/small/54862d88ac19e1a72003b88c3c895de0.png?1574277554",
-            type: "Illustration"
+            type: "Illustration",
+            username: "mia",
+            location: "India",
+            rating: 4.5
         },
         {
             id: 10,
@@ -152,7 +179,10 @@ export const imageDetails = [
             likes: "112",
             views: "19.3k",
             authorImage: "https://cdn.dribbble.com/userupload/17500737/file/original-3722b140ea044a391870a3a3325da5c5.png?crop=273x205-2922x2192&resize=400x300&vertical=center",
-            type: "Web design"
+            type: "Web design",
+            username: "aiden",
+            location: "India",
+            rating: 4.2
         },
         {
             id: 11,
@@ -161,7 +191,10 @@ export const imageDetails = [
             likes: "90",
             views: "17.5k",
             authorImage: "https://cdn.dribbble.com/userupload/17412017/file/original-cad8ebc2ac48f82b3a943825a82e5bc5.png?crop=160x71-3321x2442&resize=400x300&vertical=center",
-            type: "Typography"
+            type: "Typography",
+            username: "sophia",
+            location: "India",
+            rating: 4.8
         },
         {
             id: 12,
@@ -170,7 +203,10 @@ export const imageDetails = [
             likes: "85",
             views: "16.4k",
             authorImage: "https://cdn.dribbble.com/users/8299015/avatars/small/7d4b91badc6d842ae8934011475d1872.png?1686207363",
-            type: "Population"
+            type: "Population",
+            username: "james",
+            location: "India",
+            rating: 4.6
         },
         {
             id: 13,
@@ -179,7 +215,10 @@ export const imageDetails = [
             likes: "100",
             views: "18.2k",
             authorImage: "https://cdn.dribbble.com/users/384937/avatars/small/54862d88ac19e1a72003b88c3c895de0.png?1574277554",
-            type: "Colors"
+            type: "Colors",
+            username: "isabella",
+            location: "India",
+            rating: 4.5
         },
         {
             id: 14,
@@ -188,7 +227,10 @@ export const imageDetails = [
             likes: "110",
             views: "20.1k",
             authorImage: "https://cdn.dribbble.com/users/8299015/avatars/small/7d4b91badc6d842ae8934011475d1872.png?1686207363",
-            type: "Phone"
+            type: "Phone",
+            username: "henry",
+            location: "India",
+            rating: 4.7
         },
         {
             id: 15,
@@ -197,7 +239,10 @@ export const imageDetails = [
             likes: "67",
             views: "13.9k",
             authorImage: "https://cdn.dribbble.com/userupload/16801045/file/original-0a5117a74d298856bc61362339174da7.jpg?resize=400x300&vertical=center",
-            type: "Discover"
+            type: "Discover",
+            username: "emily",
+            location: "India",
+            rating: 4.6
         },
         {
             id: 16,
@@ -206,7 +251,10 @@ export const imageDetails = [
             likes: "75",
             views: "14.8k",
             authorImage: "https://cdn.dribbble.com/users/1222918/avatars/small/21cacf997571426c1a33e3850c373ae7.jpg?1465744279",
-            type: "Illustration"
+            type: "Illustration",
+            username: "lucas",
+            location: "India",
+            rating: 4.5
         },
         {
             id: 17,
@@ -215,7 +263,10 @@ export const imageDetails = [
             likes: "102",
             views: "21.3k",
             authorImage: "https://cdn.dribbble.com/userupload/17347025/file/original-defa18a895656d7c81b8229357f9f026.png?crop=252x189-2943x2207&resize=400x300&vertical=center",
-            type: "Branding"
+            type: "Branding",
+            username: "charlotte",
+            location: "India",
+            rating: 4.4
         },
         {
             id: 18,
@@ -224,7 +275,10 @@ export const imageDetails = [
             likes: "94",
             views: "16.1k",
             authorImage: "https://cdn.dribbble.com/userupload/17526797/file/original-72e566c441769e6dc5f1aff3028195be.png?resize=400x300&vertical=center",
-            type: "Typography"
+            type: "Typography",
+            username: "benjamin",
+            location: "India",
+            rating: 4.6
         },
         {
             id: 19,
@@ -233,7 +287,10 @@ export const imageDetails = [
             likes: "87",
             views: "15.7k",
             authorImage: "https://cdn.dribbble.com/userupload/17228525/file/original-febc521c0e58da81cc0836f15acf7c8b.jpg?resize=400x300&vertical=center",
-            type: "Population"
+            type: "Population",
+            username: "amelia",
+            location: "India",
+            rating: 4.5
         },
         {
             id: 20,
@@ -242,7 +299,10 @@ export const imageDetails = [
             likes: "113",
             views: "19.6k",
             authorImage: "https://cdn.dribbble.com/userupload/17228525/file/original-febc521c0e58da81cc0836f15acf7c8b.jpg?resize=400x300&vertical=center",
-            type: "Web design"
+            type: "Web design",
+            username: "mason",
+            location: "India",
+            rating: 4.7
         }
     ];
     
